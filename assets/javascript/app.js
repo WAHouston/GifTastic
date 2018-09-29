@@ -12,6 +12,7 @@ $("#create").on("click", function(event){
     topics.push($("#new-button").val())
     $("#button-anchor").empty()
     makeButtons()
+    $("#new-button").val("")
 })
 
 makeButtons()
